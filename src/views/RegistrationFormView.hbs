@@ -1,0 +1,30 @@
+{{> Header }}
+
+
+
+
+<div class="auth-form-container">
+    <form method="POST" action="/users" class="auth-form" id="register-form">
+    <h2>Register</h2>
+    {{#if error}}
+    <p id="error"> {{error}}</p>
+    {{/if}}
+        <label>
+            <input type="text" name="userName" placeholder="Username" class="auth-form-input">
+        </label>
+		<label>
+		    <input type="text" name="email" placeholder="Email"  class="auth-form-input">
+		</label>
+        <label>
+            <input type="text" name="password" placeholder="Password"  class="auth-form-input">
+        </label>
+        <label>
+            <input type="text" name="confirmPassword" placeholder="Confirm password"  class="auth-form-input">
+        </label>
+	
+	<input type="submit" value="Register" class="form-submit-button" id="register-form-submit-button">
+	<p>Already have an account?<a href="/login"> Login</a></p>
+    </form>
+</div>
+
+{{> Footer}}
