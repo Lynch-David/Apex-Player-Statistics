@@ -160,5 +160,6 @@ The serach view allows the user to find a player's statistics by searching for t
 
 This view shows the user more details for their found player. It will give them all relevent statistics they would need. Such as the accounts total kills, deaths, damage, wins along with their kill to death ratio, player level, rank and if they player is currently online.
 
+## Rights to code
 
 Baseline for this project was provided by Vikram Singh _vikram.singh@johnabbott.qc.ca_ ©2024
